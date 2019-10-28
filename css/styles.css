@@ -1,0 +1,163 @@
+/* body {
+  background-color: #282c37;
+} */
+/* body {
+  background-color: #666b78;
+} */
+/* 1em & 1rem = 100% = 16px */
+/************* TAG SELECTER **************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #40514E;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: 'Herr Von Muellerhoff', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #7ecfc0;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #7ecfc0;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 100;
+  color: #ec8f6a;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  width: 5%;
+  border: 5px dotted #dbdbdb;
+  border-bottom: none;
+  margin: 50px auto;
+}
+
+
+/************* CLASS SELECTER **************/
+.top-container {
+  background-color: #f2e3c9;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-div-font {
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 280px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+/*  top to middle */
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.profile-p{
+  width: 50%;
+  margin: 10px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 0;
+  text-align: left;
+}
+
+.rougai-1 {
+  height: 192px;
+  width: 30%;
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+}
+
+.rougai-2 {
+  height: 192px;
+  width: 30%;
+  border-radius: 100%;
+  float: right;
+  margin-left: 30px;
+}
+
+/* contact content below */
+
+.contact {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.contact-p {
+  width: 50%;
+  margin: 40px auto 60px;
+}
+
+.myButton {
+	background-color:#ec8f6a;
+	border-radius:22px;
+	border:1px solid;
+	display:inline-block;
+	cursor:pointer;
+	color:#f2e3c9;
+	font-family:Arial;
+	font-size:20px;
+	padding:8px 10px;
+	text-decoration:none;
+  margin: 30px;
+}
+.myButton:hover {
+	background-color:#edc073;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* middle to bottom */
+
+.bottom-container {
+  padding: 40px 0 10px 0;
+  background-color: #7ecfc0;
+}
+
+.footer-link {
+  margin: 25px;
+}
+
+.footer-p {
+  font-size: 12px;
+  color:#EAF6F6;
+  margin: 0;
+  margin: 30px
+}
+
+/************* ID SELECTER **************/
