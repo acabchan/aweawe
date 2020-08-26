@@ -160,4 +160,26 @@ hr {
   margin: 30px
 }
 
+
+@media (max-width: 1028px) {
+
+  p {
+    font-size: 1.3rem;
+    line-height: 2;
+  }
+ .pofile {
+   width: auto;
+   margin: 8%;
+ }
+
+ .skill-row {
+  width: auto;
+  margin: 8%;
+ }
+
+ .contact {
+   width: auto;
+   margin: 8%;
+ }
+}
 /************* ID SELECTER **************/
