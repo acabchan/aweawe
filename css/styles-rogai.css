@@ -160,16 +160,47 @@ hr {
   margin: 30px
 }
 
-
 @media (max-width: 1028px) {
+
+  h1 {
+    margin: 0 auto;
+  }
+
+  h2 {
+    margin: 0;
+    padding: 0;
+  }
 
   p {
     font-size: 1.3rem;
     line-height: 2;
   }
-	
+
+  .top-container {
+    padding-top: 40px;
+  }
+
+  .top-cloud {
+    position: absolute;
+    right: 1rem;
+    top: 0rem;
+  }
+
+  .bottom-cloud {
+    position: absolute;
+    left: 1rem;
+    bottom: 12rem;
+  }
+
+  .mountain {
+    height: 15rem;
+  }
+
+  .middle-container {
+    margin: 50px 0;
+}
+
  .pofile {
-   position: relative;
    width: auto;
    margin: 8% 0;
  }
@@ -180,9 +211,7 @@ hr {
  }
 
  .contact {
-   position: relative;
    width: auto;
    margin: 8%;
  }
 }
-/************* ID SELECTER **************/
