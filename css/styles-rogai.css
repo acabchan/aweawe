@@ -167,9 +167,11 @@ hr {
     font-size: 1.3rem;
     line-height: 2;
   }
+	
  .pofile {
+   position: relative;
    width: auto;
-   margin: 8%;
+   margin: 8% 0;
  }
 
  .skill-row {
@@ -178,6 +180,7 @@ hr {
  }
 
  .contact {
+   position: relative;
    width: auto;
    margin: 8%;
  }
